@@ -32,7 +32,6 @@ class Form extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          {' '}
           Name
           <input
             type="text"
